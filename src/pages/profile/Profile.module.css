@@ -1,0 +1,154 @@
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7; 
+}
+
+.mainSection {
+  background-color: #ffffff; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; 
+  border-radius: 5px; 
+  text-align: center; 
+  width: 100%;
+  min-height: 100%;
+}
+
+.mainSection a {
+  text-decoration: none; 
+  color: #ff9b44; 
+}
+
+.mainSection form input[type="file"] {
+  margin-bottom: 20px; /* Add space below the file input */
+}
+
+.mainSection img {
+  width: 100px; /* Set image width */
+  height: 100px; /* Set image height */
+  border-radius: 50%; /* Make the image round (assuming profile pictures are round) */
+  margin-bottom: 20px; /* Add space below the image */
+}
+
+.mainSection button {
+  background: #ff9b44;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  padding: 10px 26px;
+  margin-bottom: 20px; /* Add space below the button */
+}
+
+/* Style the user details */
+.mainSection h1 {
+  font-size: 24px;
+  margin-bottom: 10px; /* Add space below the heading */
+}
+
+.mainSection p {
+  font-size: 16px;
+  margin-bottom: 10px; /* Add space below each paragraph */
+}
+
+
+
+
+
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7; /* Background color for the container */
+  }
+  
+  .mainSection {
+    display: flex; /* Use flex to create a two-column layout */
+    background-color: #ffffff; /* Background color for the profile section */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    padding: 20px; /* Add padding to the profile section */
+    border-radius: 5px; /* Add rounded corners */
+    width: 100%;
+    height: 80%;
+  }
+  
+  /* Left column for profile image */
+  .profileImg {
+    flex: 1; /* Take up one-third of the available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .profileImg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Right column for profile details */
+  .profileDetails {
+     /* Take up two-thirds of the available space */
+    padding-left: 20px; /* Add some left padding to separate from the image */
+    
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profileDetails a {
+    text-decoration: none;
+    color: #ff9b44;
+    font-weight: bold;
+    
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .profileDetails form input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .profileDetails button {
+    background: #ff9b44;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    color: #fff;
+    padding: 10px 26px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the user details */
+  .profileDetails h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profileDetails p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

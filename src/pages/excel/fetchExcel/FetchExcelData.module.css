@@ -1,0 +1,37 @@
+/* Style for the select element */
+.selectType {
+  width: 200px; /* Adjust the width as needed */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Style for the options within the select dropdown */
+.selectOption {
+  font-size: 14px;
+}
+.main {
+  width: 100%;
+}
+.main h1 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.button {
+  border: none;
+  padding: 5px 10px;
+  background-color: cadetblue;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.th {
+  background-color: cadetblue !important;
+  color: white !important;
+}

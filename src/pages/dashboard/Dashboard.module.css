@@ -1,0 +1,146 @@
+.container {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.navbar {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  /* background: #ff9b44;
+  background: linear-gradient(to right, #ff9b44 0%, #fc6075 100%);
+   */
+   background-color: #95a5a6;
+  transition: 0.5s;
+  overflow: hidden;
+  top: 10%;
+}
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.navbar ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.navbar ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  border-radius: 40px;
+  padding: 0 20px;
+  
+  margin: 2%;
+}
+.buttons{
+  border: none;
+  background: transparent;
+  color: white;
+}
+.button {
+  border: none;
+  background: transparent;
+  color: white;
+}
+.button:hover {
+  color: #fc6075;
+}
+.navbar ul li:hover {
+  background-color: white;
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  display: flex;
+  display: block;
+}
+
+.navbar ul li:hover .a {
+  color: #fc6075;
+}
+
+.a .icon {
+  position: relative;
+
+  min-width: 40px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.icons {
+  font-size: 1.75em;
+}
+.secondSection {
+ 
+  background: #ff9b44;
+  background: linear-gradient(to right, #ff9b44 15%, #fc6075 100%);
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.secondSection .h1{
+  color: white;
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.55rem;
+
+  padding: 10px 20px;
+}
+.images{
+ 
+  padding: 10px 20px;
+}
+.images img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+.title {
+  position: relative;
+  font-size: 22px;
+  min-width: 40px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+/* 
+.navbar ul li:hover a::before{
+    content: ' ';
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    top: -50px;
+    background: transparent;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 35px 35px 0px 10px white;
+}
+
+
+.navbar ul li:hover a::after{
+    content: ' ';
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    bottom: -50px;
+    background: transparent;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 35px -35px 0px 10px white;
+} */

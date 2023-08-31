@@ -1,0 +1,105 @@
+:root {
+  --button-background-color: #ff9b44; /* Define a custom CSS variable for the button color */
+}
+
+.main {
+  /* border: 1px solid red; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7; /* Background color for the entire form */
+  flex-direction: column;
+}
+
+.home {
+  /* border: 1px solid red; */
+  position: absolute;
+  
+  top: 0px;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(216, 19, 216, 0.952);
+  background: linear-gradient(to right,  rgba(216, 19, 216, 0.952) 15%, #fc6075 100%);
+ 
+}
+.home button {
+  border: none;
+  font-size: 1.55rem;
+  margin-top: 3%;
+  background: transparent;
+  color: white;
+}
+
+.formDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  background-color: #ffffff; /* Background color for the form container */
+
+  padding: 30px; /* Add some padding to the form container */
+  border-radius: 5px; /* Add rounded corners */
+  height: 60%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formDiv h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  margin-top: -70px;
+  font-weight: bold;
+
+  color: #ff9b44;
+  color: linear-gradient(to right, #ff9b44 15%, #fc6075 100%);
+  /* border: 1px solid red; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 100%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.form label {
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 4px; /* Add rounded corners to the input fields */
+  font-size: 16px;
+}
+
+.form button {
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+  background: #ff9b44;
+  background: linear-gradient(to right, #ff9b44 0%, #fc6075 100%);
+  border: 0;
+  display: block;
+  font-size: 22px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 26px;
+  margin-top: 15px;
+}

@@ -1,0 +1,112 @@
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+  .innerDiv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+  /* .form {
+    max-width: 50%;
+    max-height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  /* Form Styles */
+  
+  .innerDiv h1 {
+    text-align: center;
+    color: #fc6075;
+    font-weight: bold;
+  }
+  .form {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .err{
+    color: crimson;
+  }
+  
+  .form .firstHalf {
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+  }
+  
+  .form .secondHalf {
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+  }
+  
+  /* Form Label Styles */
+  .form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Form Input Styles */
+  .form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Form Error Message Styles */
+  .form p {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Submit Button Styles */
+  .form button {
+    background-color: #ff9b44;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+  }
+  
+  .form button:hover {
+    background-color: #fc6075;
+  }
+  
+  .button{
+    background-color: #ff9b44;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+  }

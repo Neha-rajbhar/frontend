@@ -1,0 +1,59 @@
+/* HrRegularized.module.css */
+
+.container {
+   
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .result {
+    overflow-x: auto;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .result table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  .container h1{
+    color: crimson;
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .result th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .result th {
+    background-color: #45a049;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .result tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .resulttr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .result button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+ .result button:hover {
+    background-color: #45a049;
+  }
+  

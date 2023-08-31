@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    height: 100vh;
+  }
+  .innerDiv {
+    width: 100%;
+    height: 100%;
+  }
+  .result {
+    /* border: 1px solid blue; */
+    width: 100%;
+    
+  }
+  
+  .result table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid #007bff; */
+  }
+  
+  .result th {
+    background-color: #007bff;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  .result td {
+    border: 1px solid #ccc;
+    padding: 3px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .result .redirect {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .innerDiv h1{
+      text-align: center;
+  }

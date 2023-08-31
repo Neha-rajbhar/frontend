@@ -1,0 +1,29 @@
+.select{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.label{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.button{
+    border: none;
+    background-color: coral;
+    color: floralwhite;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.view{
+    border: none;
+    background-color: green;
+    color: floralwhite;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
